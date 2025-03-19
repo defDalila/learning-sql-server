@@ -1,1 +1,1 @@
-# learning-sql-server
+# Learning Microsoft SQL Server
