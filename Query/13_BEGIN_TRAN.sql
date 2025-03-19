@@ -1,0 +1,11 @@
+SELECT * FROM Clientes
+
+BEGIN TRAN
+
+DELETE Clientes
+
+SELECT * FROM Clientes
+
+ROLLBACK
+
+SELECT * FROM Clientes
