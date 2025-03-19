@@ -1,0 +1,4 @@
+SELECT * FROM Produtos
+
+ALTER TABLE Produtos
+ADD CONSTRAINT DFT_DataCadastro DEFAULT GETDATE() FOR DataCadastro
